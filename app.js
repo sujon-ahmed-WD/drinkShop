@@ -11,7 +11,7 @@ const displayCard = (cards) => {
 
   cards.forEach((card) => {
     const col = document.createElement("div");
-    col.classList="col-md-6 col-lg-3"
+    col.classList="col-12 col-md-6 col-lg-4 mb-4"
     col.innerHTML = `
 
 
